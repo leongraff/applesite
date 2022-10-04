@@ -1,2 +1,4 @@
 editor.codeactionsOnSave
 trocar por editor.formatOnSave: true
+
+estudar mais como usar o display em codeactionsOnSave
