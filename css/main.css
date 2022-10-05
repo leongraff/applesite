@@ -11,6 +11,30 @@ body {
 
 }
 
+ul {
+    padding: 0px !important;
+}
+
+.logo {
+    padding: 25px;
+    float: left;
+    margin-left: 175px;
+}
+
+.redes-sociais ul li {
+    display: inline-block;
+    float: right;
+    list-style: none;
+    margin: 12px;
+    padding: 5px;
+}
+
+.redes-sociais {
+    width: 30%;
+    float: right;
+    margin-right: 200px;
+}
+
 .main {
     margin: 0 auto;
     width: 980px;
@@ -20,7 +44,12 @@ body {
 .header-2 {
     background: color #333;
     width: 100%;
-    border-bottom: 3px solid #efefef;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.menu-urls {
+    border-bottom: 5px solid #efefef
 }
 
 .menu ul li {
@@ -37,20 +66,19 @@ body {
     margin: 15px;
 }
 
-.logo {
-    padding: 25px;
+.menu {
+    width: 70%;
     float: left;
 }
 
-.redes-sociais ul li {
-    display: inline-block;
-    float: right;
-    list-style: none;
-    margin: 12px;
-    padding: 5px;
-}
-
-.redes-sociais {
+.busca {
     width: 30%;
     float: right;
+    margin-top: 15px;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
 }
